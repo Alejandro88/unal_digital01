@@ -1,0 +1,11 @@
+
+
+Arreglo de compuertas configurable para ser AND o OR, de N bits, donde N es parametrizable.
+
+
+Se fija el numero de entradas de la compuerta (N bits).
+
+A partir de una señal de selección (sel), se escoge entre la compuerta AND, o la compuerta OR, de N bits
+
+Realiza sucesivamente la comparación entre bit y bit de la entrada y así hasta completar los N bits, 
+dependiendo de la función seleccionada AND o OR

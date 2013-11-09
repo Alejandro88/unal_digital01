@@ -1,0 +1,11 @@
+
+Es posible configurar el numero de bits de la memoria rom de N x N bits, con N hasta 128 bits
+
+		Con datos previamente guardados o configurados. se realiza el llamado del dato con la respectiva
+		dirección (addr), que es ingresada por el usuario, una vez llamado el dato se coloca en la salida
+		
+		La direccion debe estar acorde con el tamaño de los datos para que sea posible encontrar el dato
+		en determinada dirección.
+
+		La función parameter nos permite modifica, sin ningun inconveniente una variable del codigo y esta 
+		sea empleada a lo largo del mismo

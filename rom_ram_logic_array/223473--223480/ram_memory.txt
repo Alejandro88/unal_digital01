@@ -1,0 +1,12 @@
+
+
+	Es posible configurar el numero de bits de la memoria ram de N x N bits, con N hasta 128 bits
+
+		Cuando esta habilitada la escritura (we=1), se pueden ingresar los datos a la memoria (din), 
+		con su correspodiente dirección (adr),  cuando existe un flanco de subida en la señal de reloj (clk).
+		
+		Cuando la escritura se deshabilita (we=0), se puede llamar el dato ingresado con su correspondiente 
+		dirección, cuando existe un flanco de subida en la señal de reloj.
+
+		El tamaño del bus de direcciones (N) y el tamaño del dato ingresado (N), determinan el tamaño de la
+		memoria
